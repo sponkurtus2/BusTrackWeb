@@ -31,12 +31,14 @@ const Frame = ({ stationName, TimesVisited }) => {
   return (
     <div className="div">
 
-      <p>NAME : {stationName}</p>
+      <p className=' font-bold'>NAME : {stationName}</p>
 
 
       <p>Age : {TimesVisited}</p>
 
     </div>
+
+    
   );
 }
 

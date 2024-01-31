@@ -49,7 +49,7 @@ const FirestoreComponent = () => {
   return (
     <section className="todo-container">
       <div className="todo">
-        <h1 className="header">
+        <h1 className="header font-bold text-red-600">
           Todo-App
         </h1>
 
@@ -95,6 +95,7 @@ const FirestoreComponent = () => {
         </div>
       </div>
     </section>
+    
   )
 
 };
